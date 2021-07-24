@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: rgb(245, 245, 245);
+  margin: 5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px 0px;
+}
+.bContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+.bContainer > img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+.btn {
+  background-color: #f28ab2;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #fff;
+}
