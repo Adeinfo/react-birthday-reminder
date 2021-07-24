@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>{data.length} Birthdays Today</h1>
+        <h1>{people.length} Birthdays Today</h1>
         <Birthday props={people} />
         <button className="btn" type="submit" onClick={() => setData([])}>
           Clear all
